@@ -1,0 +1,118 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "yarn install"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "build": {
+      "name": "build",
+      "command": "yarn build",
+      "runAtStart": false
+    },
+    "build:webfs": {
+      "name": "build:webfs",
+      "command": "yarn build:webfs",
+      "runAtStart": false
+    },
+    "clean": {
+      "name": "clean",
+      "command": "yarn clean",
+      "runAtStart": false
+    },
+    "demo:crud-and-cas": {
+      "name": "demo:crud-and-cas",
+      "command": "yarn demo:crud-and-cas",
+      "runAtStart": false
+    },
+    "demo:fsa-to-node-sync-tests": {
+      "name": "demo:fsa-to-node-sync-tests",
+      "command": "yarn demo:fsa-to-node-sync-tests",
+      "runAtStart": false
+    },
+    "demo:fsa-to-node-zipfile": {
+      "name": "demo:fsa-to-node-zipfile",
+      "command": "yarn demo:fsa-to-node-zipfile",
+      "runAtStart": false
+    },
+    "demo:git-fsa": {
+      "name": "demo:git-fsa",
+      "command": "yarn demo:git-fsa",
+      "runAtStart": false
+    },
+    "demo:git-opfs": {
+      "name": "demo:git-opfs",
+      "command": "yarn demo:git-opfs",
+      "runAtStart": false
+    },
+    "demo:webfs": {
+      "name": "demo:webfs",
+      "command": "yarn demo:webfs",
+      "runAtStart": false
+    },
+    "prettier": {
+      "name": "prettier",
+      "command": "yarn prettier",
+      "runAtStart": false
+    },
+    "prettier:check": {
+      "name": "prettier:check",
+      "command": "yarn prettier:check",
+      "runAtStart": false
+    },
+    "test": {
+      "name": "test",
+      "command": "yarn test",
+      "runAtStart": false
+    },
+    "test:coverage": {
+      "name": "test:coverage",
+      "command": "yarn test:coverage",
+      "runAtStart": false
+    },
+    "test:watch": {
+      "name": "test:watch",
+      "command": "yarn test:watch",
+      "runAtStart": false
+    },
+    "tslint": {
+      "name": "tslint",
+      "command": "yarn tslint",
+      "runAtStart": false
+    },
+    "typecheck": {
+      "name": "typecheck",
+      "command": "yarn typecheck",
+      "runAtStart": false
+    },
+    "watch": {
+      "name": "watch",
+      "command": "yarn watch",
+      "runAtStart": false
+    },
+    "coverage": {
+      "name": "coverage",
+      "command": "yarn coverage",
+      "runAtStart": false
+    },
+    "typedoc": {
+      "name": "typedoc",
+      "command": "yarn typedoc",
+      "runAtStart": false
+    },
+    "build:pages": {
+      "name": "build:pages",
+      "command": "yarn build:pages",
+      "runAtStart": false
+    },
+    "yarn install": {
+      "name": "yarn install",
+      "command": "yarn install",
+      "runAtStart": true
+    }
+  }
+}
